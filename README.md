@@ -1,2 +1,4 @@
 # LearningManagemntSystem
 This is the repo for Code-A-Thon
+
+About this Solution: Application That Assist College Students: In our Solution We Provide Three Roles as Student, Professor and Admin. Students will be added automatically by the Admin when creating a class. Also, Admin create a New Subject and a Professor will be allocated. Admins also monitor the students and Professors by their activities. Professor take Classes, and share their notes, ask questions, post events, Assignments, Study materials also can view student’s activities. Students Can download notes, study materials, also can complete Assignments as Quiz or File Submission. Students can Participate in events to get additional point with help to secure top places in leader board. Also, they can trace their activities and able to bookmark any post that published by professor to My Bookmarks for future Study.
