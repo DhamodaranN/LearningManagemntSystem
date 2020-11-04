@@ -31,11 +31,10 @@
 	</nav>
 
 
-	
 	<div class="container features">
 		<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12">	
-				<h3 class="feature-title">Report an Issue!</h3>
+				<h3 class="feature-title">Get in Touch!</h3>
 				<div class="form-group">
 					<input type="text" class="form-control" placeholder="Name" name="">
 				</div>
@@ -43,7 +42,7 @@
 					<input type="email" class="form-control" placeholder="Email Address" name="email">
 				</div>
 				<div class="form-group">
-					<textarea class="form-control"placeholder="Type the issues" rows="4"></textarea>
+					<textarea class="form-control" rows="4"></textarea>
 				</div>
 				<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
 			</div>
@@ -54,13 +53,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-12">
-						</div>
+					<h6 class="text-uppercase font-weight-bold">Important Information</h6>
+					<p>Don't share your login information with others.</p>
+					<p>If you face any issues please report to us by click <a href="report.php">here</a>.</p>
+				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12">
 					<h6 class="text-uppercase font-weight-bold">Contact</h6>
-					<p><?php echo $Address; ?>
-					<br/><?php echo $Adminmail; ?>
-					<br/><?php echo $Adminmobile; ?>
-					<br/><?php echo $Adminphone; ?></p>
+					<p>1640 Riverside Drive, Hill Valley, California
+					<br/>info@mywebsite.com
+					<br/>+ 01 234 567 88
+					<br/>+ 01 234 567 89</p>
 				</div>
 			</div>
 		</div>
