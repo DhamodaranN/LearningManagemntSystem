@@ -12,7 +12,7 @@ require_once "collegedata.php";?>
 <html lang="en">
   <head>
 
-    <title>Dashboard - LMS</title>
+    <title>Python Programming</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -20,8 +20,7 @@ require_once "collegedata.php";?>
     <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 25%;
+  transition: 0.3s; 
   
 }
 
@@ -142,6 +141,15 @@ require_once "collegedata.php";?>
                 <li class='pull-right'><a href="#" class='btn btn-primary btn-xs'>Post</a></li>
             </ul>
         </form>
+
+        <br>
+        <div class="card" style=""> 
+    <div class="card-body">
+      <h4 class="card-title">Add Assignment </h4>
+      <p class="card-text">To create a New Assignment Click Below</p>
+      <a href="addclass.php" class="btn btn-primary">Create an Assignment</a>
+    </div>
+     </div> </span>
             </div>
         </div>
     </div>
