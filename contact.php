@@ -1,3 +1,6 @@
+<?php
+
+require_once "collegedata.php";?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,6 +34,8 @@
 	</nav>
 
 
+	<br>
+			<br>
 	<div class="container features">
 		<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12">	
@@ -50,23 +55,12 @@
 	</div>
 	
 	<footer class="page-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-12">
-					<h6 class="text-uppercase font-weight-bold">Important Information</h6>
-					<p>Don't share your login information with others.</p>
-					<p>If you face any issues please report to us by click <a href="report.php">here</a>.</p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<h6 class="text-uppercase font-weight-bold">Contact</h6>
-					<p>1640 Riverside Drive, Hill Valley, California
-					<br/>info@mywebsite.com
-					<br/>+ 01 234 567 88
-					<br/>+ 01 234 567 89</p>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright text-center">© 2019 Copyright: Rookie Coders</div>
+		
+		<div class="footer-copyright text-center" style="
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+">© 2020 Copyright: Rookie Coders</div>
 	</footer>
 
 <script src="js/jquery-3.3.1.min.js"></script>

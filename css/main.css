@@ -3,8 +3,7 @@ body {
     margin: 0;
     background: #f2f6e9;
   }
-  
-  /*--- navigation bar ---*/
+   
   
   .navbar {
     background:#6ab446;
@@ -27,3 +26,5 @@ body {
   .navbar-collapse {
     justify-content: flex-end;
   }
+  body{ font: 14px sans-serif; }
+  .wrapper{ width: 350px; padding: 20px; }
