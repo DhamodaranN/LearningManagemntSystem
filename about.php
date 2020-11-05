@@ -42,9 +42,8 @@ require_once "collegedata.php";?>
 			<br>
 			<h1>About Learning Management System!</h1>
 			<br>
-			<p>This Application made for Assist College Students, We Provide Three Roles as Student,
-			 Professor and Admin. Students will be added automatically by the Admin when creating
-			<br> a class. Also, Admin create a New Subject and a Professor will be allocated. Admins
+			<p>This Application is made to assist College Students. We provide three roles as Student,
+			 Professor and Admin. Students will be added automatically by the Admin when creating class. <br>Also, Admin create a New Subject and a Professor will be allocated. Admins
 			 also monitor the students and Professors by their activities. Professor take Classes,
 			<br> and share their notes, ask questions, post events, Assignments, Study materials also
 			 can view student’s activities. Students Can download notes, study materials, also can

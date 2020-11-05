@@ -51,20 +51,23 @@ require_once "collegedata.php";?>
                   </div>
                 </div>
 	</div>
-    <div class="card" style=""> 
-    <div class="card-body">
-      <h4 class="card-title">No Classes</h4>
-      <p class="card-text">To create a New One Click Below</p>
-      <a href="#" class="btn btn-primary">Create a Class</a>
-    </div>
-     </div> 
-      <div class="card"id="samplecard" style="display:none"> 
+  
+  <Span><div class="card"id="samplecard" style="display:block"> 
     <div  class="card-body">
-      <h4 class="card-title"></h4>
-      <p class="card-text"></p>
-      <a href="#" class="btn btn-primary">See Subject</a>
+      <h4 class="card-title">Python CSE III Year </h4>
+      <p class="card-text">Python Programming</p>
+      <a href="class.php?code=AS56T9" class="btn btn-primary">See Subject</a>
     </div>
      </div>
+  
+  <div class="card" style=""> 
+    <div class="card-body">
+      <h4 class="card-title">Add Class </h4>
+      <p class="card-text">To create a New One Click Below</p>
+      <a href="addclass.php" class="btn btn-primary">Create a Class</a>
+    </div>
+     </div> </span>
+    
   <br>
 	
     <footer class="page-footer">

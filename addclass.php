@@ -1,14 +1,10 @@
 <?php 
 session_start();
-if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: dashboard.php");
-    exit;
-}
 require_once "config.php";
 require_once "collegedata.php";
   
 $classname = $Subject = $Section=$Index = "";
-$classname_err = $Subject_err = $confirm_Subject_err = ""; 
+$classname_err =$Section_err =$Index_err = $Subject_err = $confirm_Subject_err = ""; 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
   
     if(empty(trim($_POST["classname"]))){
@@ -39,18 +35,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
      
      
     if(empty($classname_err) && empty($Subject_err)){ 
-        $sql = "INSERT INTO classes (classname, Subject,Section,Index) VALUES (?,?,?,?)";
+        $sql = "INSERT INTO classes (classname, Staffid,Subject,Section,Index) VALUES (?,?,?,?,?)";
          
         if($stmt = mysqli_prepare($link, $sql)){ 
-            mysqli_stmt_bind_param($stmt, "ssss", $param_classname, $param_Subject,$param_Index, $param_Index);
+            mysqli_stmt_bind_param($stmt, "ssss", $param_classname,  $param_staffid, $param_Subject,$param_Index, $param_Index);
              
             $param_classname = $classname;
-            $param_Subject = $Subject;  
+            $param_Subject = $_POST["Subject"];
             $param_Section = $_POST["Section"];
             $param_Index = $_POST["Index"];  
              
             if(mysqli_stmt_execute($stmt)){ 
-                header("location: login.php");
+                header("location: dashboard.php");
             } else{
                 echo "Something went wrong. Please try again later.";
             }
@@ -118,10 +114,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
            
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
-                <input type="reset" class="btn btn-default" value="Reset">
+                <input type="submit" class="btn btn-primary" value="Add Class"> 
             </div>
-            <p>Already have an account? <a href="login.php">Login here</a>.</p>
+             
         </form>
     </div>    
 	<footer class="page-footer">
