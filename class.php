@@ -147,8 +147,7 @@ require_once "collegedata.php";?>
     </div>
 </div>     
     
-  <br>
-	
+
     <footer class="page-footer">
 				<div class="footer-copyright text-center" style="
     position: fixed;
